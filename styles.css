@@ -1,0 +1,50 @@
+
+body::before {    
+      content: "";
+      background-image: url(wallpaperflare.com_wallpaper.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.55;
+}
+
+.taskbar ul{
+      display: flex;
+      gap: 6%;
+      position: relative;
+      list-style-type: none;
+      justify-content: flex-end;
+      
+}
+
+.taskbar li{
+      display: flex;
+      margin: auto;
+
+}
+
+.taskbar a{
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+}
+
+.taskbar a:hover{
+      opacity : 0.3;
+      border-radius: 2rem;
+}
+
+h1{
+      position:relative;
+      text-align: center;
+      top: 250px;
+      font-size: 150px;
+      color: white;
+
+      
+}
